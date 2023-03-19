@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo {
+  width: 80px;
+  height: 70px;
+}
+
+.container{
+  background-color:white;
+}
+
+#navItem1 {
+  color:black;
+  font-family: "Roboto";
+}
+#navItem2 {
+  color: black;;
+  font-family: "Roboto";
+}
+#navItem3 {
+  color: black;;
+  font-family: "Roboto";
+}
+#navItem4 {
+  color: black;;
+  font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+  background-image: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141353.jpg?w=2000");
+  height: 100vh;
+  background-size: cover;
+}
+.banner-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 45px;
+  font-weight: 300;
+}
+.banner-caption {
+  color: #f5f7fa;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+    background-image: linear-gradient(#d0b200,#a58d00);
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+.custom-outline-button {
+  color: #d0b200;
+  background-color: transparent;
+  width: 130px;
+  height: 45px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d0b200;
+  border-radius: 8px;
+}
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.wcu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.wcu-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.explore-menu-section {
+   background-color: white;
+}
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.menu-item-image {
+  border-radius: 16px;
+  height: 140px;
+}
+.menu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+}
+.menu-item-card {
+  border-radius: 16px;
+}
+
+.healthy-food-section {
+  background-color: #f9fbfe;
+}
+.healthy-food-section-img {
+  width: 270px;
+}
+
+.healthy-food-section-img1 {
+   width: 270px;
+   padding: 20px;
+   margin: 100px;
+   height: 200px;
+}
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.delivery-and-payment-section {
+  background-color: white;
+}
+.delivery-and-payment-section-img {
+  width: 270px;
+}
+.delivery-and-payment-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.delivery-and-payment-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.payment-card-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 28px;
+}
+
+.thanking-customers-section {
+  background-color: #d0b2001a;
+  background-image: radial-gradient(#fff8db,#fae38c);
+}
+.thanking-customers-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.thanking-customers-section-description {
+  color: #5a7184;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.thanking-customers-section-img {
+  width: 270px;
+  margin-bottom: 20px;
+}
+.thanking-customers-section-modal-title
+{
+  color: #d0b200;
+  font-weight: 800;
+}
+
+.follow-us-section {
+  background-color: white;
+}
+.follow-us-section-heading {
+  text-align: center;
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.follow-us-icon-container {
+  background-color: #faf7e8;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+}
+
+.icon {
+  color: #d0b200;
+  font-size: 35px;
+}
+
+.footer-section {
+  background-color: #0d2436;
+}
+.footer-section-mail-id {
+  color:brown;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer-section-address {
+  color:brown;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+.thanking-customers-section {
+   background-image: radial-gradient(#fff8db, #fae38c);
+}
+.thanking-customers-section-heading {
+   color: #183b56;
+   font-family: "Roboto";
+   padding-bottom: 50px;
+   font-size: 28px;
+   font-weight: 700;
+}
+.thanking-customers-section-description {
+   color: #5a7184;
+   font-family: "Roboto";
+   font-size: 16px;
+}
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.faq {
+    padding-top: 30px;
+    width: 90%;
+    margin-right: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.faqs__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.faqs__item {
+    max-width: 45%;
+}
+
+.faqs__item h3 {
+    text-align: left;
+    color: var(--main-color-dark);
+    margin: 20px 0;
+    font-weight: bolder;
+}
+
+.faqs__item span {
+    color: var(--main-color);
+    margin: 0 10px 0 0;
+}
+
+.faqs__item p {
+    text-align: justify;
+}
+
+.faq__parallax {
+    height: 200px;
+    background: var(--gradient), url('./img/cta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.faq__parallax h2 {
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-us__card-container {
+    width: 90%;
+    padding: 30px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__card-imageholder {
+    border-radius: 30px;
+    height: 350px;
+    width: 48%;
+    overflow: hidden;
+}
+
+.about-us__card-imageholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us__text-contentholder {
+    width: 48%;
+}
+
+.about-us__text-contentholder ul {
+    margin-bottom: 20px;
+}
+
+.about-us__text-contentholder li {
+    list-style: none;
+}
+
+.check-icon {
+    color: var(--main-color);
+    margin-right: 15px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.about-us__text-contentholder h2 {
+    color: var(--main-color);
+    background: var(--light-text-color);
+    border-left: 5px solid var(--main-color);
+    border-right: 5px solid var(--main-color);
+    padding: 10px;
+    font-size: 28px;
+}
+
+.about-us__text-contentholder p {
+    margin: 20px 0;
+}
+
+.about-us__text-contentholder button:hover {
+    color: var(--main-color);
+}
+
+.cardicon {
+    margin-left: 10px;
+}
+
+.about-us__banner-holder {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--gray-gradient), url('./img/about3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.about-us__banner-holder h2 {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.about-us__banner-holder p {
+    margin: 20px 0;
+}
+
+.btn-waves {
+    margin-top: 20px;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: var(--white-color);
+    background: var(--main-color);
+    border: 2px solid var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: ripple 2s infinite;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+
+.blog-text .h4-title {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 900;
+    font-family: "playfair Display";
+    color: #0d0d25;
+    transition: 0.3s;
+}
+
+.blog-text .h4-title:hover {
+    color: #ff8243;
+}
+
+.blog-date {
+    padding: 5px 15px;
+    background: #f8f9fa;
+    box-shadow: inset 5px 5px 10px #e2e2e2, inset -5px -5px 10px #e8e8e8;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.blog-img {
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.blog-box {
+    padding: 30px 25px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #ececec, #fdfdfd);
+    box-shadow: 30px 30px 50px #dcdcdc, -30px -30px 50px #ffffff;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
+    margin-bottom: 30px;
+}
+
+.blog-box:hover {
+    transform: scale(1.03);
+}
+
+.testimonials {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.testimonials h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.testimonials p {
+    display: block;
+    text-align: center;
+}
+.testimonials .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.testimonials .container .boxes {
+    width: 250px;
+    padding: 10px 20px;
+    transition: .2s ease-in-out;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -2px 4px 7px #cbcbcb;
+    border: 1px solid #e8e8e8;
+    margin: 10px 10px;
+}
+.testimonials .container .boxes img {
+    width: 100%;
+    border-radius: 100%;
+}
+.testimonials .container .boxes h3 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+.testimonials .container .boxes p {
+    word-break: break-all;
+    font-size: 16px;
+}
+.testimonials .container .boxes .stars {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.testimonials .container .boxes .stars img {
+    width: 13%;
+}
+  
